@@ -2,7 +2,7 @@
 
 ## About Plugin Manager
 
-Plugin Manager is a little Python library I created based off of Michael Cotterell Simple Python Plugin Manager. I have changed a significant bit of how it works and updated it to work with Python 3.7 using more appropriate Python libraries. I originally tried forking off of his project, but ran into some issues. I have decided to keep use of his copy write license since it is still similar in many ways. Plugin Manager lets you create a plugins directory with which it will load all .py files inside of it. You then can load all of them or specific ones by name. I have found this to be very useful in my projects and I hope it will help you as well.
+Plugin Manager is a little Python library I created based off of Michael Cotterell Simple Python Plugin Manager. I have changed a significant bit of how it works and updated it to work with Python 3.7 using more appropriate Python libraries. I originally tried forking off of his project, but ran into some issues. I have decided to keep use of his copywrite license since it is still similar in many ways. Plugin Manager lets you create a plugins directory with which it will load all .py files inside of it. You then can load all of them or specific ones by name. I have found this to be very useful in my projects and I hope it will help you as well.
 
 ## Usage
 
