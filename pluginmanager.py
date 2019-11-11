@@ -50,7 +50,7 @@ class PluginManager:
         """
         return self.__imported_plugins
 
-    def get_imported_plugin_module(self, plugin_name):
+    def get_imported_plugin_module(self, plugin_name: str):
         """
         gets the module of an already loaded plugin.
         :param plugin_name: the name of the plugin you want the module for
@@ -61,7 +61,7 @@ class PluginManager:
             module = plugin.get('module')
             return module
 
-    def import_plugin(self, plugin_name):
+    def import_plugin(self, plugin_name: str):
         """
         Imports a requested plugin from the plugins dir.
         :param plugin_name: the name of the plugin you want to import
@@ -115,7 +115,7 @@ class PluginManager:
             else:
                 self.__logging.warning(f"{plugin_name} is already loaded.")
 
-    def remove_plugin(self, plugin_name):
+    def remove_plugin(self, plugin_name: str):
         """
         Removes a loaded plugin
         :param plugin_name: the name of the plugin to be removed
